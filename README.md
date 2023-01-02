@@ -1,2 +1,2 @@
 # Flats.lt
-Created with CodeSandbox
+React app for RE administration
