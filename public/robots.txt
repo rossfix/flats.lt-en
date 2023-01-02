@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /skelbimai/
+Disallow: /savitarna/
+Disallow: /savitarna/*/
+Disallow: /feed/
+Disallow: /index.php/
+Disallow: /pramogos-vilniuje/
+Disallow: /tag/
+Disallow: /kontaktai/
+Disallow: /prisijungti/
+Disallow: /savitarna/
+Disallow: /savitarna/*/
+Disallow: /sekmingai-issiusta
+Allow: /prisijungti/
+Allow: /kontaktu-forma/
+Allow: /straipsniai/
+Allow: /straipsniai/*/
+
+Sitemap: https://flats.lt/sitemap.xml
