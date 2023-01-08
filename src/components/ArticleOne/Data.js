@@ -1,6 +1,6 @@
 export const articleOne = {
   id: 1,
-  url: "/nt-nuomos-patarimai-lietuvoje",
+  url: "/straipsniai/nt-nuomos-patarimai-lietuvoje",
   seotitle: "NT nuomos patarimai Lietuvoje",
   seocontent:
     "Šiame straipsnyje rasite NT nuomos patarimus ir taikomas praktikas Lietuvoje. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -39,7 +39,7 @@ export const articleOne = {
 
 export const articleTwo = {
   id: 2,
-  url: "/buto-nuomos-mokesciai-lietuvoje",
+  url: "/straipsniai/buto-nuomos-mokesciai-lietuvoje",
   seotitle: "Buto nuomos mokesčiai Lietuvoje",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie Buto nuomos mokesčius Lietuvoje. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -78,7 +78,7 @@ export const articleTwo = {
 
 export const articleThree = {
   id: 3,
-  url: "/buto-nuomos-sutartis",
+  url: "/straipsniai/buto-nuomos-sutartis",
   seotitle: "Buto nuomos sutartis",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie buto nuomos sutartys ir kaip jas tinkamai pasiruošti. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -117,7 +117,7 @@ export const articleThree = {
 
 export const articleFour = {
   id: 4,
-  url: "/trumpalaike-ilgalaike-nuoma",
+  url: "/straipsniai/trumpalaike-ilgalaike-nuoma",
   seotitle: "Trumpalaikė ir ilgalaikė nuoma",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie Trumpalaikę ir ilgalaikę nuomą ir jos skirtumus. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -156,7 +156,7 @@ export const articleFour = {
 
 export const articleFive = {
   id: 5,
-  url: "/legali-buto-nuoma",
+  url: "/straipsniai/legali-buto-nuoma",
   seotitle: "Legali buto nuoma",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie tai kas yra legali buto nuoma ir kaip nuomoti NT legaliai. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -195,7 +195,7 @@ export const articleFive = {
 
 export const articleSix = {
   id: 6,
-  url: "/nekilnojamo-turto-nuoma",
+  url: "/straipsniai/nekilnojamo-turto-nuoma",
   seotitle: "Nekilnojamo turto nuoma",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie nekilnojamo turto nuomą ir nuo ko pradėti. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -234,7 +234,7 @@ export const articleSix = {
 
 export const articleSeven = {
   id: 7,
-  url: "/nekilnojamo-turto-administravimas",
+  url: "/straipsniai/nekilnojamo-turto-administravimas",
   seotitle: "Nekilnojamo turto administravimas",
   seocontent:
     "Šiame straipsnyje atsakysime kas yra nekilnojamo turto administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -273,7 +273,7 @@ export const articleSeven = {
 
 export const articleEight = {
   id: 8,
-  url: "/kaip-greitai-isnuomoti-busta",
+  url: "/straipsniai/kaip-greitai-isnuomoti-busta",
   seotitle: "Kaip greitai išnuomoti būstą",
   seocontent:
     "Šiame straipsnyje rasite informacijos kaip greitai išnuomoti būstą Lietuvoje. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -312,7 +312,7 @@ export const articleEight = {
 
 export const articleNine = {
   id: 9,
-  url: "/kaip-paruosti-buta-nuomai",
+  url: "/straipsniai/kaip-paruosti-buta-nuomai",
   seotitle: "Kaip paruošti butą nuomai?",
   seocontent:
     "Šiame straipsnyje rasite informacijos Kaip tinkamai paruošti butą nuomai. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
@@ -351,7 +351,7 @@ export const articleNine = {
 
 export const articleTen = {
   id: 10,
-  url: "/ilgalaikes-nuomos-administravimas",
+  url: "/straipsniai/ilgalaikes-nuomos-administravimas",
   seotitle: "Ilgalaikės nuomos administravimas",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie Ilgalaikės nuomos administravimą. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
