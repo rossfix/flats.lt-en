@@ -47,53 +47,53 @@ function App() {
         <Route path="/prisijungti" element={<LoginPage />} exact />
         <Route path="/straipsniai" element={<AllArticlesPage />} exact />
         <Route
-          path="/nt-nuomos-patarimai-lietuvoje"
+          path="/straipsniai/nt-nuomos-patarimai-lietuvoje"
           element={<ArticlePageOne {...articleOne} />}
           exact
         />
         <Route
-          path="/buto-nuomos-mokesciai-lietuvoje"
+          path="/straipsniai/buto-nuomos-mokesciai-lietuvoje"
           element={<ArticlePageOne {...articleTwo} />}
           exact
         />
         <Route
-          path="/buto-nuomos-sutartis"
+          path="/straipsniai/buto-nuomos-sutartis"
           element={<ArticlePageOne {...articleThree} />}
           exact
         />
         <Route
-          path="/trumpalaike-ilgalaike-nuoma"
+          path="/straipsniai/trumpalaike-ilgalaike-nuoma"
           element={<ArticlePageOne {...articleFour} />}
           exact
         />
         <Route
-          path="/legali-buto-nuoma"
+          path="/straipsniai/legali-buto-nuoma"
           element={<ArticlePageOne {...articleFive} />}
           exact
         />
         <Route
-          path="/nekilnojamo-turto-nuoma"
+          path="/straipsniai/nekilnojamo-turto-nuoma"
           element={<ArticlePageOne {...articleSix} />}
           exact
         />
         <Route
-          path="/nekilnojamo-turto-administravimas"
+          path="/straipsniai/nekilnojamo-turto-administravimas"
           element={<ArticlePageOne {...articleSeven} />}
           exact
         />
         <Route
-          path="/kaip-greitai-isnuomoti-busta"
+          path="/straipsniai/kaip-greitai-isnuomoti-busta"
           element={<ArticlePageOne {...articleEight} />}
           exact
         />
         <Route
-          path="/kaip-paruosti-buta-nuomai"
+          path="/straipsniai/kaip-paruosti-buta-nuomai"
           element={<ArticlePageOne {...articleNine} />}
           exact
         />
 
         <Route
-          path="/ilgalaikes-nuomos-administravimas"
+          path="/straipsniai/ilgalaikes-nuomos-administravimas"
           element={<ArticlePageOne {...articleTen} />}
           exact
         />
