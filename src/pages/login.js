@@ -84,7 +84,8 @@ const LoginPage = () => {
         <meta
           name="description"
           content="Nekilnojamo turto administravimo platforma. Prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
-        />
+          data-react-helmet="true"
+       />
       </Helmet>
       <ScrollToTop />
       <StationarNav />

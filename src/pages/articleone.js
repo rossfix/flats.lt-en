@@ -44,7 +44,7 @@ const ArticlePageOne = ({
     <>
       <Helmet>
         <title>{seotitle}</title>
-        <meta name="description" content={seocontent} />
+        <meta name="description" content={seocontent} data-react-helmet="true"/>
       </Helmet>
       <ScrollToTop />
       <StationarNav />

@@ -13,7 +13,8 @@ const AllArticlesPage = () => {
         <meta
           name="description"
           content="NT nuomos patarimai bei straipsniai kurie padės efektyviau valdyti nekilnojamą turtą bei administruoti jo nuomą."
-        />
+          data-react-helmet="true"
+       />
       </Helmet>
       <ScrollToTop />
       <StationarNav />

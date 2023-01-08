@@ -13,7 +13,8 @@ const ContactPage = () => {
         <meta
           name="description"
           content="Susisiekite su nekilnojamo turto administravimo profesionalais. Palikite savo NT nuomos klausimus mums ir mes juos išspręsime!"
-        />
+          data-react-helmet="true"
+       />
       </Helmet>
       <ScrollToTop />
       <StationarNav />
