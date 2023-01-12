@@ -10,6 +10,7 @@ import {
 } from "../components/InfoSection/Data";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,14 @@ const Home = () => {
 
   return (
     <>
+    <Helmet>
+        <title>Nekilnojamo turto nuomos administravimas - Flats.lt</title>
+        <meta
+          name="description"
+          content="Visos nekilnojamo turto nuomos administravimo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
+          data-react-helmet="true"
+       />
+      </Helmet>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
