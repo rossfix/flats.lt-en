@@ -1,5 +1,6 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
+import { useNavigate } from "react-router-dom";
 import {
   FooterColumnsContainer,
   FooterContainer,
@@ -11,10 +12,25 @@ import {
   SocialMediaWrap,
   WebsiteRights,
   FooterPar,
-  FooterParLeft
+  FooterParLeft,
+  FooterBtnDinamic
 } from "./FooterElements";
 
 const Footer = () => {
+  const user = JSON.parse(localStorage.getItem("user"));
+  let navigate = useNavigate();
+
+  const routeChange = () => {
+    if (user === null) {
+      let path = "/prisijungti";
+      navigate(path);
+    } else {
+      let path = "/savitarna";
+      navigate(path);
+    }
+  };
+
+
   const toggleHome = () => {
     scroll.scrollToTop();
   };
@@ -41,7 +57,8 @@ const Footer = () => {
             <FooterPar>El. paštas: flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/kontaktu-forma">Susisiekti</FooterLink>
             <FooterLinkTitle>Savitarna</FooterLinkTitle>
-            <FooterLink to="/savitarna/profilis">Prisijungti</FooterLink>
+           <FooterBtnDinamic onClick={routeChange}>Prisijungti</FooterBtnDinamic>
+           
           </FooterLinkItems>
         </FooterLinksContainer>
       </FooterColumnsContainer>
