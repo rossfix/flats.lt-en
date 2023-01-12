@@ -25,7 +25,9 @@ import {
   articleSeven,
   articleEight,
   articleNine,
-  articleTen
+  articleTen,
+  articleEleven,
+  articleTwelve
 } from "../ArticleOne/Data";
 
 const ArticlesHomeComponent = () => {
@@ -36,7 +38,7 @@ const ArticlesHomeComponent = () => {
           <ImageBg src={Hero} />
         </HeroBg>
         <HeroContent>
-          <HeroH1>NT Nuomos Patarimai</HeroH1>
+          <HeroH1>NT Nuomos Straipsniai</HeroH1>
         </HeroContent>
       </HeroContainerArticles>
       <ArticlesContainer>
@@ -52,6 +54,8 @@ const ArticlesHomeComponent = () => {
             <ArticleCard {...articleEight} />
             <ArticleCard {...articleNine} />
             <ArticleCard {...articleTen} />
+            <ArticleCard {...articleEleven} />
+            <ArticleCard {...articleTwelve} />
           </ArticleCont>
           <PaginationGrid>
             <AntPagination defaultCurrent={1} total={10} />

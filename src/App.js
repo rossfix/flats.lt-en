@@ -29,7 +29,9 @@ import {
   articleSeven,
   articleEight,
   articleNine,
-  articleTen
+  articleTen,
+  articleEleven,
+  articleTwelve
 } from "./components/ArticleOne/Data";
 
 function App() {
@@ -47,7 +49,7 @@ function App() {
         <Route path="/prisijungti" element={<LoginPage />} exact />
         <Route path="/straipsniai" element={<AllArticlesPage />} exact />
         <Route
-          path="/straipsniai/nt-nuomos-patarimai-lietuvoje"
+          path="/straipsniai/nt-nuomos-patarimai"
           element={<ArticlePageOne {...articleOne} />}
           exact
         />
@@ -62,7 +64,7 @@ function App() {
           exact
         />
         <Route
-          path="/straipsniai/trumpalaike-ilgalaike-nuoma"
+          path="/straipsniai/ilgalaike-butu-nuoma"
           element={<ArticlePageOne {...articleFour} />}
           exact
         />
@@ -95,6 +97,16 @@ function App() {
         <Route
           path="/straipsniai/ilgalaikes-nuomos-administravimas"
           element={<ArticlePageOne {...articleTen} />}
+          exact
+        />
+        <Route
+          path="/straipsniai/pasyvios-pajamos-is-nekilnojamo-turto"
+          element={<ArticlePageOne {...articleEleven} />}
+          exact
+        />
+        <Route
+          path="/straipsniai/nt-brokerio-paslaugu-altervatyva"
+          element={<ArticlePageOne {...articleTwelve} />}
           exact
         />
         <Route path="/*" element={<ErrorPage />} exact />

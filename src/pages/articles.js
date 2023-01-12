@@ -9,10 +9,10 @@ const AllArticlesPage = () => {
   return (
     <>
       <Helmet>
-        <title>NT Nuomos Patarimai</title>
+        <title>NT Nuomos Straipsniai</title>
         <meta
           name="description"
-          content="NT nuomos patarimai bei straipsniai kurie padės efektyviau valdyti nekilnojamą turtą bei administruoti jo nuomą."
+          content="NT nuomos straipsniai kurie padės efektyviau valdyti nekilnojamą turtą bei administruoti jo nuomą."
           data-react-helmet="true"
        />
       </Helmet>
