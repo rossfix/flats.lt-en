@@ -28,6 +28,7 @@ const Home = () => {
           content="Visos nekilnojamo turto nuomos administravimo paslaugos vienoje vietoje. Administruojame visą nuomos paslaugų ciklą: nuo paieškos iki sutarties pabaigos."
           data-react-helmet="true"
        />
+    
       </Helmet>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
