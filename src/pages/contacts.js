@@ -9,10 +9,10 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Kontaktų puslapis</title>
+        <title>Susisiekite su nekilnojamo turto valdymo profesionalais</title>
         <meta
           name="description"
-          content="Susisiekite su nekilnojamo turto administravimo profesionalais. Palikite savo NT nuomos klausimus mums ir mes juos išspręsime!"
+          content="Susisiekite su nekilnojamo turto valdymo profesionalais. Palikite savo NT nuomos klausimus mums ir mes juos išspręsime!"
           data-react-helmet="true"
        />
       </Helmet>

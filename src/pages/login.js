@@ -80,10 +80,10 @@ const LoginPage = () => {
   return (
     <>
       <Helmet>
-        <title>Prisijungti prie savitarnos</title>
+        <title>NT administravimo platforma - prisijungti</title>
         <meta
           name="description"
-          content="Nekilnojamo turto administravimo platforma. Prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
+          content="NT administravimo platforma, prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
           data-react-helmet="true"
        />
       </Helmet>
@@ -94,7 +94,7 @@ const LoginPage = () => {
           <ImageBg src={Hero} />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Prisijungti į savitarną</HeroH1>
+          <HeroH1>NT administravimo platforma - prisijungti</HeroH1>
 
           <Form
             name="basic"

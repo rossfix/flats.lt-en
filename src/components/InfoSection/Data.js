@@ -24,7 +24,7 @@ export const homeObjTwo = {
   topLine: "Vertės pasiūlymas",
   headline: "Įnovatyvus nuomos administravimas",
   description:
-    "Remiantis užsienio trumpalaikės bei ilgalaikės nuomos administravimo patirtimis, inovatyvius sprendimus pritaikome ir Lietuvoje, tai užtikrina itin aukštą nuomos pajamingumą visais metų laikais.",
+    "Remiantis užsienio trumpalaikės bei ilgalaikės nekilnojamo turto nuomos administravimo patirtimis, inovatyvius sprendimus pritaikome ir Lietuvoje, tai užtikrina itin aukštą nuomos pajamingumą visais metų laikais.",
   img: require("../../images/trumpalaikes-ilgalaikes-nuomos-administravimas.svg")
     .default,
   alt:
@@ -41,7 +41,7 @@ export const homeObjThree = {
   topLine: "Bendradarbiavimas",
   headline: "Paslaugos įmonėms bei fiziniams asmenims",
   description:
-    "Paslaugos yra teikiamos tiek įmonėms tiek fiziniams asmenims norintiems nebesirūpinti nuomos valdymu, tačiau gauti jo teikiamą naudą. Flats.lt rupinasi NT nuomos administravimu Vilniuje bei kituose didmiesčiuose už jus.",
+    "Paslaugos yra teikiamos tiek įmonėms tiek fiziniams asmenims norintiems nebesirūpinti nuomos valdymu, tačiau gauti jo teikiamą naudą. Flats.lt rupinasi nekilnojamo turto nuomos administravimu Vilniuje bei kituose didmiesčiuose už jus.",
   img: require("../../images/nuomos-administravimas-vilniuje.svg").default,
   alt: "Nuomos administravimas Vilniuje pavyzdys"
 };

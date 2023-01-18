@@ -1,7 +1,7 @@
 export const articleOne = {
   id: 1,
   url: "/straipsniai/nt-nuomos-patarimai",
-  seotitle: "NT nuomos patarimai Lietuvoje",
+  seotitle: "NT nuomos patarimai",
   seocontent:
     "Šiame straipsnyje rasite NT nuomos patarimus ir taikomas praktikas Lietuvoje. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
   headerone: "NT nuomos patarimai",
@@ -82,7 +82,7 @@ export const articleThree = {
   seotitle: "Buto nuomos sutartis",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie buto nuomos sutartys ir kaip jas tinkamai pasiruošti. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Buto nuomos sutartis nuo A iki Z",
+  headerone: "Buto nuomos sutartis",
 
   header: "Buto nuomos sutartis: kas tai ir kodėl ji svarbi?",
   firstpar:
@@ -118,7 +118,7 @@ export const articleThree = {
 export const articleFour = {
   id: 4,
   url: "/straipsniai/ilgalaike-butu-nuoma",
-  seotitle: "Ilgalaikės butų nuomos privalumai ir trūkumai",
+  seotitle: "Ilgalaikė butų nuoma: privalumai ir trūkumai",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie ilgalaikę butų nuomą ir jos skirtumus. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
   headerone: "Ilgalaikė butų nuoma: privalumai ir trūkumai",
@@ -238,7 +238,7 @@ export const articleSeven = {
   seotitle: "Nekilnojamo turto administravimas",
   seocontent:
     "Šiame straipsnyje atsakysime kas yra nekilnojamo turto administravimas. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Kas yra nekilnojamo turto administravimas?",
+  headerone: "Nekilnojamo turto administravimas - kas tai?",
 
   header: "Nekilnojamo turto administravimas: kodėl tai svarbu?",
   firstpar:
@@ -277,7 +277,7 @@ export const articleEight = {
   seotitle: "Kaip greitai išnuomoti būstą",
   seocontent:
     "Šiame straipsnyje rasite informacijos kaip greitai išnuomoti būstą Lietuvoje. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Kaip greitai išnuomoti būstą?",
+  headerone: "Kaip greitai išnuomoti būstą",
 
   header: "Patrauklus skelbimas padės greitai išnuomoti būstą",
   firstpar:
@@ -313,10 +313,10 @@ export const articleEight = {
 export const articleNine = {
   id: 9,
   url: "/straipsniai/kaip-paruosti-buta-nuomai",
-  seotitle: "Kaip paruošti butą nuomai?",
+  seotitle: "Kaip paruošti butą nuomai",
   seocontent:
     "Šiame straipsnyje rasite informacijos Kaip tinkamai paruošti butą nuomai. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Kaip paruošti butą nuomai?",
+  headerone: "Kaip paruošti butą nuomai - patarimai",
 
   header: "Išvalykite ir atsikratykite nereikalingų daiktų",
   firstpar:
@@ -355,7 +355,7 @@ export const articleTen = {
   seotitle: "Ilgalaikės nuomos administravimas",
   seocontent:
     "Šiame straipsnyje rasite informacijos apie Ilgalaikės nuomos administravimą. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Ilgalaikės nuomos administravimas ar trumpalaikės?",
+  headerone: "Ilgalaikės nuomos administravimas: už ar prieš?",
 
   header: "Ilgalaikės nuomos administravimo ir trumpalaikės skirtumai",
   firstpar:
@@ -394,7 +394,7 @@ export const articleEleven = {
   seotitle: "Pasyvios pajamos iš nekilnojamo turto",
   seocontent:
     "Šiame straipsnyje rasite informacijos kaip gauti pasyvių pajamų iš nekilnojamo turto. Jeigu kils papildomu klausimų lauksime Jūsų užklausos.",
-  headerone: "Kaip užtikrinti pasyvias pajamas iš nekilnojamo turto",
+  headerone: "Pasyvios pajamos iš nekilnojamo turto - kaip užtikrinti stabilumą?",
 
   header: "Pasyvios pajamos iš nekilnojamo turto",
   firstpar:

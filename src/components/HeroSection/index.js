@@ -26,10 +26,9 @@ const HeroSection = () => {
         <ImageBg src={Hero} />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Flats.lt - patogus nuomos administravimas</HeroH1>
+        <HeroH1>Nekilnojamo turto nuomos administravimas</HeroH1>
         <HeroP>
-          Visos nekilnojamo turto nuomos administravimo paslaugos vienoje
-          vietoje
+        Flats.lt - visos NT nuomos administravimo paslaugos vienoje vietoje
         </HeroP>
         <HeroBtnWrapper>
           <Button
