@@ -18,16 +18,7 @@ import ArticleCard from "./CardStyle";
 import {
   articleOne,
   articleTwo,
-  articleThree,
-  articleFour,
-  articleFive,
-  articleSix,
-  articleSeven,
-  articleEight,
-  articleNine,
-  articleTen,
-  articleEleven,
-  articleTwelve
+  articleThree
 } from "../ArticleOne/Data";
 
 const ArticlesHomeComponent = () => {
@@ -38,7 +29,7 @@ const ArticlesHomeComponent = () => {
           <ImageBg src={Hero} />
         </HeroBg>
         <HeroContent>
-          <HeroH1>NT Nuomos Straipsniai</HeroH1>
+          <HeroH1>Real Estate rental articles</HeroH1>
         </HeroContent>
       </HeroContainerArticles>
       <ArticlesContainer>
@@ -47,15 +38,7 @@ const ArticlesHomeComponent = () => {
             <ArticleCard {...articleOne} />
             <ArticleCard {...articleTwo} />
             <ArticleCard {...articleThree} />
-            <ArticleCard {...articleFour} />
-            <ArticleCard {...articleFive} />
-            <ArticleCard {...articleSix} />
-            <ArticleCard {...articleSeven} />
-            <ArticleCard {...articleEight} />
-            <ArticleCard {...articleNine} />
-            <ArticleCard {...articleTen} />
-            <ArticleCard {...articleEleven} />
-            <ArticleCard {...articleTwelve} />
+           
           </ArticleCont>
           <PaginationGrid>
             <AntPagination defaultCurrent={1} total={10} />

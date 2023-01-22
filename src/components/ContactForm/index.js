@@ -23,32 +23,32 @@ const ContactForm = () => {
         <ImageBg src={Hero} />
       </HeroBg>
       <HeroContent>
-      <H1>Susisiekite su nekilnojamo turto valdymo profesionalais</H1>
+      <H1>Contact real estate management professionals</H1>
         <FormContent
           method="POST"
           name="contactform"
           className="contactForm"
-          action="/sekmingai-issiusta"
+          action="/successfully-sent"
         >
           <FormInput type="hidden" name="form-name" value="contactForm" />
           <FormItems>
-            <FormLabel>Vardas:</FormLabel>
+            <FormLabel>Name:</FormLabel>
             <FormInput type="text" name="name" required />
           </FormItems>
           <FormItems>
-            <FormLabel>El. Paštas:</FormLabel>
+            <FormLabel>E-mail:</FormLabel>
             <FormInput type="email" name="email" required />
           </FormItems>
           <FormItems>
-            <FormLabel>Tel. Nr.:</FormLabel>
+            <FormLabel>Tel.:</FormLabel>
             <FormInput type="tel" name="phone" required />
           </FormItems>
           <FormItems>
-            <FormLabel>Žinutė:</FormLabel>
+            <FormLabel>Message:</FormLabel>
             <FormText name="message" rows="4" required></FormText>
           </FormItems>
           
-            <FormBtn type="submit">Siųsti</FormBtn>
+            <FormBtn type="submit">Send</FormBtn>
          
         </FormContent>
       </HeroContent>

@@ -26,20 +26,20 @@ const HeroSection = () => {
         <ImageBg src={Hero} />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Nekilnojamo turto nuomos administravimas</HeroH1>
+        <HeroH1>Property management in Lithuania</HeroH1>
         <HeroP>
-        Flats.lt - visos NT nuomos administravimo paslaugos vienoje vietoje
+        Flats.lt - all property management services in one place
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="/kontaktu-forma"
+            to="/contacts-form"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             duration={500}
             exact="true"
             offset={-80}
           >
-            Klausti {hover ? <ArrowForward /> : <ArrowRight />}
+            Ask Us {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

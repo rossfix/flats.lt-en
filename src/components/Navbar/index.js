@@ -17,17 +17,14 @@ import {
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
-  const user = JSON.parse(localStorage.getItem("user"));
+  
   let navigate = useNavigate();
 
   const routeChange = () => {
-    if (user === null) {
-      let path = "/prisijungti";
+    
+      let path = "/login";
       navigate(path);
-    } else {
-      let path = "/savitarna";
-      navigate(path);
-    }
+    
   };
 
   const [scrollNav, setScrollNav] = useState(false);
@@ -68,7 +65,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Apie
+                About
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -80,7 +77,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Nauda
+                Benefits
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -92,7 +89,7 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Paslaugos
+                Services
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -104,13 +101,13 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Partneriai
+                Partners
               </NavLinks>
             </NavItem>
           </NavMenu>
           <NavMenu>
             <NavBtn>
-              <NavBtnLink to="/kontaktu-forma">Susisiekti</NavBtnLink>
+              <NavBtnLink to="/contacts-form">Contact Us</NavBtnLink>
             </NavBtn>
             <NavBtn>
               <NavButton onClick={routeChange}>

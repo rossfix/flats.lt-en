@@ -18,7 +18,7 @@ const ErrorPage = () => {
   return (
     <>
       <Helmet>
-        <title>Nepavyko!</title>
+        <title>Failed!</title>
       </Helmet>
       <ScrollToTop />
       <StationarNav />
@@ -28,8 +28,8 @@ const ErrorPage = () => {
         </HeroBg>
         <HeroContent>
           <HeroH1>404</HeroH1>
-          <HeroP>Šis puslapis neegzistuoja</HeroP>
-          <NavBtnLink to="/">Grįžti</NavBtnLink>
+          <HeroP>This page does not exist</HeroP>
+          <NavBtnLink to="/">Go Home</NavBtnLink>
         </HeroContent>
       </HeroContainer>
       <Footer />

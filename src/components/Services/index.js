@@ -15,17 +15,17 @@ import Icon3 from "../../images/kainos-nustatymas.svg";
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Teikiamos nuomos administravimo paslaugos</ServicesH1>
+      <ServicesH1>Provided property management services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon
             src={Icon1}
-            alt="Nuomos administravimo paslaugos - nuomininku paieska"
+            alt="Property management services in Lithuania - tenant search"
           />
-          <ServicesH2>Nuomininkų paieška</ServicesH2>
+          <ServicesH2>Search for tenants</ServicesH2>
           <ServicesP>
-            Bendrausime už Jus su potencialiais nuominikais iki pat sutarties
-            pabaigos, tad Jums nebereikės gaišti laiko
+          We will communicate for you with potential tenants right up to the contract
+             end, so you won't have to waste your time
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -33,10 +33,10 @@ const Services = () => {
             src={Icon2}
             alt="Nuomos administravimo paslaugos - sutarciu sablonai"
           />
-          <ServicesH2>Sutartys</ServicesH2>
+          <ServicesH2>Contracts</ServicesH2>
           <ServicesP>
-            Pagal Jūsų poreikį paruošime sutarčiu šablonus, kuriuos galėsite
-            pasirašyti elekroniniu parašu
+          According to your needs, we will prepare the templates that you can use in the contract
+             to sign with an electronic signature
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -44,10 +44,10 @@ const Services = () => {
             src={Icon3}
             alt="Rinkos analize nuomos administravimo paslaugoms"
           />
-          <ServicesH2>Kainos nustatymas</ServicesH2>
+          <ServicesH2>Pricing</ServicesH2>
           <ServicesP>
-            Nuolat stebime rinkos kainos tendencijas, tad visuomet išlaikysime
-            jums palankias nuomos kainas
+          We constantly monitor market price trends, so we will always maintain
+             favorable rental prices for you
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

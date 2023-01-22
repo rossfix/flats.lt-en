@@ -26,7 +26,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             spy={true}
             exact="true"
           >
-            Apie
+            About
           </SidebarLink>
           <SidebarLink
             to="discover"
@@ -36,7 +36,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             spy={true}
             exact="true"
           >
-            Nauda
+            Benefits
           </SidebarLink>
           <SidebarLink
             to="services"
@@ -46,7 +46,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             spy={true}
             exact="true"
           >
-            Paslaugos
+            Services
           </SidebarLink>
           <SidebarLink
             to="signup"
@@ -56,14 +56,14 @@ const Sidebar = ({ isOpen, toggle }) => {
             spy={true}
             exact="true"
           >
-            Partneriai
+            Partners
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/kontaktu-forma">Susisiekti</SidebarRoute>
+          <SidebarRoute to="/contacts-form">Contact Us</SidebarRoute>
         </SideBtnWrap>
         <SideBtnWrap>
-          <SidebarRoute to="/savitarna">Prisijungti</SidebarRoute>
+          <SidebarRoute to="/savitarna">Log in</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

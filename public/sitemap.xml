@@ -1,61 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 		<url>
-			<loc>http://flats.lt</loc>
+			<loc>https://en.en.flats.lt/</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/prisijungti</loc>
+			<loc>http://en.en.flats.lt/contacts-form</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/kontaktu-forma</loc>
+			<loc>http://en.en.flats.lt/login</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/straipsniai</loc>
+			<loc>http://en.flats.lt/articles</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/straipsniai/nt-nuomos-patarimai-lietuvoje</loc>
+			<loc>http://en.flats.lt/articles/long-term-property-management-in-Lithuania</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/straipsniai/buto-nuomos-mokesciai-lietuvoje</loc>
+			<loc>http://en.flats.lt/articles/properties-lease-agreement-in-lithuania</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://flats.lt/straipsniai/buto-nuomos-sutartis</loc>
+			<loc>http://en.flats.lt/articles/investment-properties-in-lithuania</loc>
 			<changefreq>weekly</changefreq>
 		</url>
-		<url>
-			<loc>http://flats.lt/straipsniai/trumpalaike-ilgalaike-nuoma</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		<url>
-			<loc>http://flats.lt/straipsniai/legali-buto-nuoma</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		<url>
-			<loc>http://flats.lt/straipsniai/nekilnojamo-turto-nuoma</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		<url>
-			<loc>http://flats.lt/straipsniai/nekilnojamo-turto-administravimas</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		<url>
-			<loc>http://flats.lt/straipsniai/kaip-greitai-isnuomoti-busta</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		<url>
-			<loc>http://flats.lt/straipsniai/kaip-paruosti-buta-nuomai</loc>
-			<changefreq>weekly</changefreq>
-		</url>
-		<url>
-			<loc>http://flats.lt/straipsniai/ilgalaikes-nuomos-administravimas</loc>
-			<changefreq>weekly</changefreq>
-		</url>
+		
 	
 
 	</urlset>

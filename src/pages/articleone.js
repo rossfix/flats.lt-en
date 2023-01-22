@@ -77,13 +77,13 @@ const ArticlePageOne = ({
             <ArticleHeader>{frthheader}</ArticleHeader>
             <ArticleParagraph>{frthpar}</ArticleParagraph>
             <ArticleParagraph>
-              Tikiuosi, kad šie patarimai padės jums sėkmingai nuomoti savo namą
-              ar butą ir patikimai pasirūpinti savo turtu. Jei turite daugiau
-              klausimų ar norite sužinoti daugiau apie nuomos procesą,
-              nedvejodami kreipkitės mūsų komanda čia, kad padėtų jums!
+            We hope these tips help you successfully rent your home
+               or an apartment and reliably take care of your property. If you have more
+               questions or want to know more about the rental process,
+               feel free to contact us, our team is here to help you!
             </ArticleParagraph>
             <ButtonCont>
-              <NavBtnLink to="/kontaktu-forma">Susisiekti</NavBtnLink>
+              <NavBtnLink to="/contacts-form">Contact Us</NavBtnLink>
             </ButtonCont>
           </ArticleSection>
         </ArticleSubContainer>

@@ -59,10 +59,10 @@ const LoginPage = () => {
   return (
     <>
       <Helmet>
-        <title>NT administravimo platforma - prisijungti</title>
+        <title>Property management platform - login</title>
         <meta
           name="description"
-          content="NT administravimo platforma, prisijungti nieko nekainuoja, palikite mums savo kontaktus ir mes su jumis susisieksime!"
+          content="Property management platform, it costs nothing to join, leave us your contacts and we will contact you!"
           data-react-helmet="true"
        />
       </Helmet>
@@ -73,7 +73,7 @@ const LoginPage = () => {
           <ImageBg src={Hero} />
         </HeroBg>
         <HeroContent>
-          <HeroH1>NT administravimo platforma - prisijungti</HeroH1>
+          <HeroH1>Property management platform - login</HeroH1>
 
           <Form
             name="basic"
@@ -84,8 +84,8 @@ const LoginPage = () => {
           >
             <FormContainer>
               <ColumnContainer>
-                <Label1>Prisijungimo vardas:</Label1>
-                <Label2>Slaptažodis:</Label2>
+                <Label1>Username:</Label1>
+                <Label2>Password:</Label2>
               </ColumnContainer>
               <ColumnContainer>
                 <Form.Item
@@ -93,13 +93,13 @@ const LoginPage = () => {
                   rules={[
                     {
                       required: true,
-                      message: "Įrašykite vardą!"
+                      message: "Enter a username!"
                     }
                   ]}
                 >
                   <Input
                     type="email"
-                    onChange={console.log("pavyko!")
+                    onChange={console.log("suceed!")
                     }
                   />
                 </Form.Item>
@@ -109,13 +109,13 @@ const LoginPage = () => {
                   rules={[
                     {
                       required: true,
-                      message: "Įrašykite slaptažodį!"
+                      message: "Enter a password!"
                     }
                   ]}
                 >
                   <Input.Password
                     type="password"
-                    onChange={console.log("pavyko!")
+                    onChange={console.log("suceed!")
                                       }
                   />
                 </Form.Item>
@@ -126,15 +126,15 @@ const LoginPage = () => {
                 offset: 8
               }}
             >
-              <BetterButton onClick={()=>{ alert('Neteisingas vartotojo vardas!'); }}>
-                Prisijungti
+              <BetterButton onClick={()=>{ alert('Invalid username!'); }}>
+                Log In
               </BetterButton>
             </Form.Item>
           </Form>
 
           <HeroP>
-            Neturi paskyros? <a href="/kontaktu-forma">Parašyk mums</a> ir mes
-            sukursime tau paskyrą!
+          Don't have an account? <a href="/contacts-form">Write us</a> and we
+             we will create an account for you!
           </HeroP>
         </HeroContent>
       </HeroContainer>

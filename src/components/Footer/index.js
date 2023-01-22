@@ -13,21 +13,21 @@ import {
   WebsiteRights,
   FooterPar,
   FooterParLeft,
-  FooterBtnDinamic
+  FooterBtnDinamic,
+  LanguageWrap,
+  LanguageSite,
+  LanguageSeparator
 } from "./FooterElements";
 
 const Footer = () => {
-  const user = JSON.parse(localStorage.getItem("user"));
+ 
   let navigate = useNavigate();
 
   const routeChange = () => {
-    if (user === null) {
-      let path = "/prisijungti";
+   
+      let path = "/login";
       navigate(path);
-    } else {
-      let path = "/savitarna";
-      navigate(path);
-    }
+ 
   };
 
 
@@ -44,27 +44,33 @@ const Footer = () => {
               Flats.lt
             </FooterLinkTitle>
             <FooterParLeft>
-              Flats.lt sprendžia visus jums rūpimus NT nuomos administravimo
-              klausimus. Susisiekite su mumis del savo problemos ir mes ją
-              išspręsime!
+            Flats.lt solves all your property management concerns in Lithuania. Contact us with your problem and we will solve it!
             </FooterParLeft>
 
-            <FooterLink to="/straipsniai">Straipsniai</FooterLink>
+            <FooterLink to="/articles">Articles</FooterLink>
+           
           </FooterLinkItems>
 
           <FooterLinkItems>
-            <FooterLinkTitle>Kontaktai</FooterLinkTitle>
-            <FooterPar>El. paštas: flats.lithuania@gmail.com</FooterPar>
-            <FooterLink to="/kontaktu-forma">Susisiekti</FooterLink>
-            <FooterLinkTitle>Savitarna</FooterLinkTitle>
-           <FooterBtnDinamic onClick={routeChange}>Prisijungti</FooterBtnDinamic>
+            <FooterLinkTitle>Contacts</FooterLinkTitle>
+            <FooterPar>E-mail: flats.lithuania@gmail.com</FooterPar>
+            <FooterLink to="/contacts-form">Contact us</FooterLink>
+            <FooterLinkTitle>Self service</FooterLinkTitle>
+           <FooterBtnDinamic onClick={routeChange}>Log in</FooterBtnDinamic>
            
           </FooterLinkItems>
         </FooterLinksContainer>
       </FooterColumnsContainer>
       <SocialMedia>
         <SocialMediaWrap>
+          <LanguageWrap>
+        <WebsiteRights>Language: </WebsiteRights>
+        <LanguageSite href="https://flats.lt">Lithuanian</LanguageSite>
+        <LanguageSeparator> | </LanguageSeparator>
+        <LanguageSite href="https://en.flats.lt/">English</LanguageSite>
+        </LanguageWrap>
           <WebsiteRights>© Flats.lt {new Date().getFullYear()}</WebsiteRights>
+          
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>

@@ -6,12 +6,12 @@ export const homeObjOne = {
   dark: false,
   primary: false,
   lightHg: true,
-  topLine: "Komanda",
-  headline: "NT Nuomos administravimo profesionalai",
+  topLine: "Team",
+  headline: "Property management professionals",
   description:
-    "Flats.lt sudaro inovatyvių profesionalų komanda, kurie nekilnojamo turto nuomos administravimą perkelia į kitą lygį. Turimos žinios leidžia neapsiriboti, tad dirbame su visu NT rinkoje - butai, kotedžai, namai, komercinės patalpos.",
+    "Flats.lt consists of a team of innovative professionals who take property management in Lithuania to the next level. Our knowledge allows us not to limit ourselves, so we work with the entire real estate market - apartments, cottages, houses, and commercial premises.",
   img: require("../../images/nuomos-administravimo-komanda.svg").default,
-  alt: "Nekilnojamo turto nuomos administravimas komandos nuotrauka"
+  alt: "Property managers team"
 };
 
 export const homeObjTwo = {
@@ -21,14 +21,14 @@ export const homeObjTwo = {
   imgStart: true,
   dark: true,
   primary: true,
-  topLine: "Vertės pasiūlymas",
-  headline: "Įnovatyvus nuomos administravimas",
+  topLine: "Value proposition",
+  headline: "Innovative property management",
   description:
-    "Remiantis užsienio trumpalaikės bei ilgalaikės nekilnojamo turto nuomos administravimo patirtimis, inovatyvius sprendimus pritaikome ir Lietuvoje, tai užtikrina itin aukštą nuomos pajamingumą visais metų laikais.",
+    "Based on the experience of foreign short-term and long-term property management, we apply innovative solutions in Lithuania as well, which ensures extremely high rental yield at all times of the year.",
   img: require("../../images/trumpalaikes-ilgalaikes-nuomos-administravimas.svg")
     .default,
   alt:
-    "Trumpalaikės nuomos administravimo ir ilgalaikės nuomos administravimo paslaugos"
+    "Short-term and long-term property management in lithuania services"
 };
 
 export const homeObjThree = {
@@ -38,10 +38,10 @@ export const homeObjThree = {
   imgStart: true,
   dark: true,
   primary: true,
-  topLine: "Bendradarbiavimas",
-  headline: "Paslaugos įmonėms bei fiziniams asmenims",
+  topLine: "Cooperation",
+  headline: "Services for companies and individuals",
   description:
-    "Paslaugos yra teikiamos tiek įmonėms tiek fiziniams asmenims norintiems nebesirūpinti nuomos valdymu, tačiau gauti jo teikiamą naudą. Flats.lt rupinasi nekilnojamo turto nuomos administravimu Vilniuje bei kituose didmiesčiuose už jus.",
+    "The services are provided to companies and individuals who want to no longer worry about property management, but receive its benefits. Flats.lt takes care of real estate rental administration in Vilnius and other big cities for you.",
   img: require("../../images/nuomos-administravimas-vilniuje.svg").default,
-  alt: "Nuomos administravimas Vilniuje pavyzdys"
+  alt: "An example of property management in Vilnius, Lithuania"
 };

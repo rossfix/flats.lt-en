@@ -17,15 +17,7 @@ import {
   articleOne,
   articleTwo,
   articleThree,
-  articleFour,
-  articleFive,
-  articleSix,
-  articleSeven,
-  articleEight,
-  articleNine,
-  articleTen,
-  articleEleven,
-  articleTwelve
+  
 } from "./components/ArticleOne/Data";
 
 function App() {
@@ -35,71 +27,26 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} exact />
-        <Route path="/kontaktu-forma" element={<ContactPage />} exact />
-        <Route path="/prisijungti" element={<LoginPage />} exact />
-        <Route path="/straipsniai" element={<AllArticlesPage />} exact />
+        <Route path="/contacts-form" element={<ContactPage />} exact />
+        <Route path="/login" element={<LoginPage />} exact />
+        <Route path="/articles" element={<AllArticlesPage />} exact />
         <Route path="/*" element={<ErrorPage />} exact />
         <Route
-          path="/straipsniai/nt-nuomos-patarimai"
+          path="/articles/long-term-property-management-in-Lithuania"
           element={<ArticlePageOne {...articleOne} />}
           exact
         />
         <Route
-          path="/straipsniai/buto-nuomos-mokesciai-lietuvoje"
+          path="/articles/properties-lease-agreement-in-lithuania"
           element={<ArticlePageOne {...articleTwo} />}
           exact
         />
         <Route
-          path="/straipsniai/buto-nuomos-sutartis"
+          path="/articles/investment-properties-in-lithuania"
           element={<ArticlePageOne {...articleThree} />}
           exact
         />
-        <Route
-          path="/straipsniai/ilgalaike-butu-nuoma"
-          element={<ArticlePageOne {...articleFour} />}
-          exact
-        />
-        <Route
-          path="/straipsniai/legali-buto-nuoma"
-          element={<ArticlePageOne {...articleFive} />}
-          exact
-        />
-        <Route
-          path="/straipsniai/nekilnojamo-turto-nuoma"
-          element={<ArticlePageOne {...articleSix} />}
-          exact
-        />
-        <Route
-          path="/straipsniai/nekilnojamo-turto-administravimas"
-          element={<ArticlePageOne {...articleSeven} />}
-          exact
-        />
-        <Route
-          path="/straipsniai/kaip-greitai-isnuomoti-busta"
-          element={<ArticlePageOne {...articleEight} />}
-          exact
-        />
-        <Route
-          path="/straipsniai/kaip-paruosti-buta-nuomai"
-          element={<ArticlePageOne {...articleNine} />}
-          exact
-        />
 
-        <Route
-          path="/straipsniai/ilgalaikes-nuomos-administravimas"
-          element={<ArticlePageOne {...articleTen} />}
-          exact
-        />
-        <Route
-          path="/straipsniai/pasyvios-pajamos-is-nekilnojamo-turto"
-          element={<ArticlePageOne {...articleEleven} />}
-          exact
-        />
-        <Route
-          path="/straipsniai/nt-brokerio-paslaugu-altervatyva"
-          element={<ArticlePageOne {...articleTwelve} />}
-          exact
-        />
         
         
        

@@ -15,7 +15,7 @@ const StationarNav = () => {
         <NoNavbarContainer>
           <NavLogo to="/">Flats.lt</NavLogo>
           <NoNavBtn>
-            <NavBtnLink to="/">Pradinis</NavBtnLink>
+            <NavBtnLink to="/">Home</NavBtnLink>
           </NoNavBtn>
         </NoNavbarContainer>
       </NoNav>
