@@ -32,7 +32,7 @@ function App() {
         <Route path="/articles" element={<AllArticlesPage />} exact />
         <Route path="/*" element={<ErrorPage />} exact />
         <Route
-          path="/articles/long-term-property-management-in-Lithuania"
+          path="/articles/long-term-property-management-in-lithuania"
           element={<ArticlePageOne {...articleOne} />}
           exact
         />

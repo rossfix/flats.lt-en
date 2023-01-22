@@ -79,7 +79,7 @@ const ArticlePageOne = ({
             <ArticleParagraph>
             We hope these tips help you successfully rent your home
                or an apartment and reliably take care of your property. If you have more
-               questions or want to know more about the rental process,
+               questions or want to know more about the rental process in Lithuania,
                feel free to contact us, our team is here to help you!
             </ArticleParagraph>
             <ButtonCont>
