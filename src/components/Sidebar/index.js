@@ -63,7 +63,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarRoute to="/contacts-form">Contact Us</SidebarRoute>
         </SideBtnWrap>
         <SideBtnWrap>
-          <SidebarRoute to="/savitarna">Log in</SidebarRoute>
+          <SidebarRoute to="/login">Log in</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
