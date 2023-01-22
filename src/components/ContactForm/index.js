@@ -4,15 +4,16 @@ import {
   HeroBg,
   HeroContainer,
   ImageBg,
-  HeroContent,
-  HeroP
+  HeroContent
 } from "../../components/HeroSection/HeroElements";
 import {
   FormLabel,
   FormInput,
   FormContent,
   FormText,
-  FormBtn
+  FormBtn,
+  FormItems,
+  H1
 } from "./ContactFormElements";
 
 const ContactForm = () => {
@@ -22,6 +23,7 @@ const ContactForm = () => {
         <ImageBg src={Hero} />
       </HeroBg>
       <HeroContent>
+      <H1>Susisiekite su nekilnojamo turto valdymo profesionalais</H1>
         <FormContent
           method="POST"
           name="contactform"
@@ -29,25 +31,25 @@ const ContactForm = () => {
           action="/sekmingai-issiusta"
         >
           <FormInput type="hidden" name="form-name" value="contactForm" />
-          <HeroP>
+          <FormItems>
             <FormLabel>Vardas:</FormLabel>
             <FormInput type="text" name="name" required />
-          </HeroP>
-          <HeroP>
+          </FormItems>
+          <FormItems>
             <FormLabel>El. Paštas:</FormLabel>
             <FormInput type="email" name="email" required />
-          </HeroP>
-          <HeroP>
+          </FormItems>
+          <FormItems>
             <FormLabel>Tel. Nr.:</FormLabel>
             <FormInput type="tel" name="phone" required />
-          </HeroP>
-          <HeroP>
+          </FormItems>
+          <FormItems>
             <FormLabel>Žinutė:</FormLabel>
-            <FormText name="message" rows="6" required></FormText>
-          </HeroP>
-          <HeroP>
+            <FormText name="message" rows="4" required></FormText>
+          </FormItems>
+          
             <FormBtn type="submit">Siųsti</FormBtn>
-          </HeroP>
+         
         </FormContent>
       </HeroContent>
     </HeroContainer>

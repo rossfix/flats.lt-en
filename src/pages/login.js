@@ -11,15 +11,13 @@ import {
   HeroP
 } from "../components/HeroSection/HeroElements";
 import styled from "styled-components";
-import { Button, Form, Input } from "antd";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebase";
-import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../context/AuthContext";
+import {Button, Form, Input } from "antd";
+
 import Footer from "../components/Footer";
 import { Helmet } from "react-helmet";
 
 const BetterButton = styled(Button)`
+color: #fff !important;
   margin-left: 5px;
   border-radius: 50px;
   background: #2a5965;
@@ -29,6 +27,7 @@ const BetterButton = styled(Button)`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #1f424a;
+    color: #fff;
   }
   &:focus {
     background: #2a5965;
@@ -55,27 +54,7 @@ const ColumnContainer = styled.div`
 `;
 
 const LoginPage = () => {
-  const [loginEmail, setLoginEmail] = useState("");
-  const [loginPassword, setLoginPassword] = useState("");
-
-  const navigate = useNavigate();
-
-  const { dispatch } = useContext(AuthContext);
-
-  const login = async () => {
-    try {
-      const user = await signInWithEmailAndPassword(
-        auth,
-        loginEmail,
-        loginPassword
-      );
-      dispatch({ type: "LOGIN", payload: user });
-      navigate("/savitarna/profilis");
-    } catch (error) {
-      console.log(error);
-      alert("Neteisingas slaptažodis");
-    }
-  };
+ 
 
   return (
     <>
@@ -120,9 +99,8 @@ const LoginPage = () => {
                 >
                   <Input
                     type="email"
-                    onChange={(event) => {
-                      setLoginEmail(event.target.value);
-                    }}
+                    onChange={console.log("pavyko!")
+                    }
                   />
                 </Form.Item>
 
@@ -137,9 +115,8 @@ const LoginPage = () => {
                 >
                   <Input.Password
                     type="password"
-                    onChange={(event) => {
-                      setLoginPassword(event.target.value);
-                    }}
+                    onChange={console.log("pavyko!")
+                                      }
                   />
                 </Form.Item>
               </ColumnContainer>
@@ -149,7 +126,7 @@ const LoginPage = () => {
                 offset: 8
               }}
             >
-              <BetterButton type="primary" htmlType="submit" onClick={login}>
+              <BetterButton onClick={()=>{ alert('Neteisingas vartotojo vardas!'); }}>
                 Prisijungti
               </BetterButton>
             </Form.Item>
