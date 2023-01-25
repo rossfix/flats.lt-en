@@ -16,20 +16,16 @@ import {
   FooterBtnDinamic,
   LanguageWrap,
   LanguageSite,
-  LanguageSeparator
+  LanguageSeparator,
 } from "./FooterElements";
 
 const Footer = () => {
- 
   let navigate = useNavigate();
 
   const routeChange = () => {
-   
-      let path = "/login";
-      navigate(path);
- 
+    let path = "/login";
+    navigate(path);
   };
-
 
   const toggleHome = () => {
     scroll.scrollToTop();
@@ -41,14 +37,14 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinkItems>
             <FooterLinkTitle to="/" onClick={toggleHome}>
-              Flats.lt
+              Property management
             </FooterLinkTitle>
             <FooterParLeft>
-            Flats.lt solves all your property management concerns in Lithuania. Contact us with your problem and we will solve it!
+              Flats.lt solves all your property management concerns in
+              Lithuania. Contact us with your problem and we will solve it!
             </FooterParLeft>
 
             <FooterLink to="/articles">Articles</FooterLink>
-           
           </FooterLinkItems>
 
           <FooterLinkItems>
@@ -56,21 +52,19 @@ const Footer = () => {
             <FooterPar>E-mail: flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/contacts-form">Contact us</FooterLink>
             <FooterLinkTitle>Self service</FooterLinkTitle>
-           <FooterBtnDinamic onClick={routeChange}>Log in</FooterBtnDinamic>
-           
+            <FooterBtnDinamic onClick={routeChange}>Log in</FooterBtnDinamic>
           </FooterLinkItems>
         </FooterLinksContainer>
       </FooterColumnsContainer>
       <SocialMedia>
         <SocialMediaWrap>
           <LanguageWrap>
-        <WebsiteRights>Language: </WebsiteRights>
-        <LanguageSite href="https://flats.lt">Lithuanian</LanguageSite>
-        <LanguageSeparator> | </LanguageSeparator>
-        <LanguageSite href="https://en.flats.lt/">English</LanguageSite>
-        </LanguageWrap>
+            <WebsiteRights>Language: </WebsiteRights>
+            <LanguageSite href="https://flats.lt">Lithuanian</LanguageSite>
+            <LanguageSeparator> | </LanguageSeparator>
+            <LanguageSite href="https://en.flats.lt/">English</LanguageSite>
+          </LanguageWrap>
           <WebsiteRights>© Flats.lt {new Date().getFullYear()}</WebsiteRights>
-          
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
