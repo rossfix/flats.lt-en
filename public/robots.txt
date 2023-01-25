@@ -4,6 +4,7 @@ User-agent: *
 
 
 Disallow: /successfully-sent
+Allow: /
 Allow: /login/
 Allow: /contacts-form/
 Allow: /articles/

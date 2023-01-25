@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<urlset xmlns="http://www.google.com/schemas/sitemap/0.84" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 		<url>
-			<loc>https://en.en.flats.lt/</loc>
+			<loc>https://en.flats.lt/</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://en.en.flats.lt/contacts-form</loc>
+			<loc>http://en.flats.lt/contacts-form</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
-			<loc>http://en.en.flats.lt/login</loc>
+			<loc>http://en.flats.lt/login</loc>
 			<changefreq>weekly</changefreq>
 		</url>
 		<url>
