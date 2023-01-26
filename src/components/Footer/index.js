@@ -1,5 +1,5 @@
 import React from "react";
-import { animateScroll as scroll } from "react-scroll";
+
 import { useNavigate } from "react-router-dom";
 import {
   FooterColumnsContainer,
@@ -17,6 +17,7 @@ import {
   LanguageWrap,
   LanguageSite,
   LanguageSeparator,
+  FooterTitle,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -27,18 +28,12 @@ const Footer = () => {
     navigate(path);
   };
 
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  };
-
   return (
     <FooterContainer>
       <FooterColumnsContainer>
         <FooterLinksContainer>
           <FooterLinkItems>
-            <FooterLinkTitle to="/" onClick={toggleHome}>
-              Property management
-            </FooterLinkTitle>
+            <FooterLinkTitle href="/">Property management</FooterLinkTitle>
             <FooterParLeft>
               Flats.lt solves all your property management concerns in
               Lithuania. Contact us with your problem and we will solve it!
@@ -48,10 +43,10 @@ const Footer = () => {
           </FooterLinkItems>
 
           <FooterLinkItems>
-            <FooterLinkTitle>Contacts</FooterLinkTitle>
+            <FooterTitle>Contacts</FooterTitle>
             <FooterPar>E-mail: flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/contacts-form">Contact us</FooterLink>
-            <FooterLinkTitle>Self service</FooterLinkTitle>
+            <FooterTitle>Self service</FooterTitle>
             <FooterBtnDinamic onClick={routeChange}>Log in</FooterBtnDinamic>
           </FooterLinkItems>
         </FooterLinksContainer>

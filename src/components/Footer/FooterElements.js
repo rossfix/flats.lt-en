@@ -43,7 +43,20 @@ export const FooterLinkItems = styled.div`
   }
 `;
 
-export const FooterLinkTitle = styled.h1`
+export const FooterLinkTitle = styled.a`
+  color: #fff;
+  text-align: justify;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 16px 0px;
+  width: 160px;
+  &:hover {
+    color: #fff;
+  }
+`;
+
+export const FooterTitle = styled.p`
   color: #fff;
   text-align: justify;
   text-decoration: none;
@@ -67,28 +80,25 @@ export const FooterLink = styled(Link)`
     color: #1f424a;
     transition: 0.3s ease-out;
     transform: scale(1.02);
-  
-  }
   }
 `;
 
 export const FooterBtnDinamic = styled.button`
-color: #2a5965;
-text-decoration: none;
-margin-bottom: 0.5rem;
-font-size: 14px;
-border-style: solid;
-border-width: 0px;
-padding: 0px 8px;
-border-radius: 10px;
-background-color: #fdf2ed;
-&:hover {
-  color: #1f424a;
-  transition: 0.3s ease-out;
-  transform: scale(1.02);
-
-}
-}`;
+  color: #2a5965;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 0px;
+  padding: 0px 8px;
+  border-radius: 10px;
+  background-color: #fdf2ed;
+  &:hover {
+    color: #1f424a;
+    transition: 0.3s ease-out;
+    transform: scale(1.02);
+  }
+`;
 
 export const FooterParLeft = styled.p`
   color: #fff;
@@ -115,7 +125,6 @@ export const SocialMediaWrap = styled.div`
   max-width: 1100px;
   margin: 40px auto 0 auto;
   flex-direction: column;
-  }
 `;
 
 export const WebsiteRights = styled.small`
@@ -124,16 +133,16 @@ export const WebsiteRights = styled.small`
 `;
 
 export const LanguageWrap = styled.div`
-display: flex;
-align-items: baseline;
-margin-bottom: -16px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: -16px;
 `;
 
 export const LanguageSite = styled.a`
-margin: 2px;
-color: #fff;
+  margin: 2px;
+  color: #fff;
 `;
 
 export const LanguageSeparator = styled.div`
-color: #fff;
+  color: #fff;
 `;
