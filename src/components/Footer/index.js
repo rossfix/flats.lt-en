@@ -46,8 +46,7 @@ const Footer = () => {
             <FooterTitle>Contacts</FooterTitle>
             <FooterPar>E-mail: flats.lithuania@gmail.com</FooterPar>
             <FooterLink to="/contacts-form">Contact us</FooterLink>
-            <FooterTitle>Self service</FooterTitle>
-            <FooterBtnDinamic onClick={routeChange}>Log in</FooterBtnDinamic>
+            <FooterLink to="/login">Platform</FooterLink>
           </FooterLinkItems>
         </FooterLinksContainer>
       </FooterColumnsContainer>

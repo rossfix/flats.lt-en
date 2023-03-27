@@ -6,11 +6,13 @@ import {
   ServicesH2,
   ServicesIcon,
   ServicesP,
-  ServicesWrapper
+  ServicesWrapper,
+  HeroBtnWrapper,
+  Button,
 } from "./ServicesElements";
 import Icon1 from "../../images/nuomininku-paieska.svg";
-import Icon2 from "../../images/sutarciu-sablonai.svg";
-import Icon3 from "../../images/kainos-nustatymas.svg";
+
+import Icon2 from "../../images/nuomos_administravimo_platforma.svg";
 
 const Services = () => {
   return (
@@ -22,32 +24,25 @@ const Services = () => {
             src={Icon1}
             alt="Property management services in Lithuania - tenant search"
           />
-          <ServicesH2>Search for tenants</ServicesH2>
+          <ServicesH2>Comprehensive rent management</ServicesH2>
           <ServicesP>
-          We will communicate for you with potential tenants right up to the contract
-             end, so you won't have to waste your time
+            We will communicate for you with potential tenants - from finding
+            them to the end of the contract. We will deal with all issues
+            arising as tenants questions, issues fix, etc. You will only enjoy
+            returns received from your property.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon
             src={Icon2}
-            alt="Nuomos administravimo paslaugos - sutarciu sablonai"
+            alt="Nuomos administravimo paslaugos - platforma"
           />
-          <ServicesH2>Contracts</ServicesH2>
+          <ServicesH2>Property management platform</ServicesH2>
           <ServicesP>
-          According to your needs, we will prepare the templates that you can use in the contract
-             to sign with an electronic signature
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon
-            src={Icon3}
-            alt="Rinkos analize nuomos administravimo paslaugoms"
-          />
-          <ServicesH2>Pricing</ServicesH2>
-          <ServicesP>
-          We constantly monitor market price trends, so we will always maintain
-             favorable rental prices for you
+            Want to manage your property yourself? We have a solution for you -
+            real estate management platform. Once tenants are found, manage the
+            state of objects, automatically send contracts and monitor payments
+            yourself.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
